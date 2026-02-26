@@ -8,3 +8,24 @@ torch
 tk
 aspose.slides
 pywin32
+gunicorn
+
+
+# 17:33:32.752 Running build in Washington, D.C., USA (East) – iad1
+# 17:33:32.752 Build machine configuration: 2 cores, 8 GB
+# 17:33:32.942 Cloning github.com/Pratikms10/QC (Branch: main, Commit: f068e57)
+# 17:33:32.943 Previous build caches not available.
+# 17:33:33.178 Cloning completed: 236.000ms
+# 17:33:35.475 Running "vercel build"
+# 17:33:36.142 Vercel CLI 50.23.2
+# 17:33:37.772 No Python version specified in .python-version, pyproject.toml, or Pipfile.lock. Using python version: 3.12
+# 17:33:37.781 Creating virtual environment at "/vercel/path0/.vercel/python/.venv"...
+# 17:33:39.915 Using uv at "/usr/local/bin/uv"
+# 17:33:39.929 Installing required dependencies from requirements.txt...
+# 17:33:40.354 Error: Failed to run "uv sync --active --no-dev --link-mode copy --locked --no-editable": Command failed: /usr/local/bin/uv sync --active --no-dev --link-mode copy --locked --no-editable
+# 17:33:40.355 Resolved 77 packages in 0.64ms
+# 17:33:40.355 error: Distribution `pywin32==311 @ registry+https://pypi.org/simple` can't be installed because it doesn't have a source distribution or wheel for the current platform
+# 17:33:40.355 
+# 17:33:40.356 hint: You're on Linux (`manylinux_2_34_x86_64`), but `pywin32` (v311) only has wheels for the following platforms: `win32`, `win_amd64`, `win_arm64`; consider adding "sys_platform == 'linux' and platform_machine == 'x86_64'" to `tool.uv.required-environments` to ensure uv resolves to a version with compatible wheels
+# 17:33:40.356 
+# 17:33:40.356 
